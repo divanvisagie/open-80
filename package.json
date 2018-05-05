@@ -1,0 +1,23 @@
+{
+  "name": "open-80",
+  "version": "1.0.0",
+  "description": "Tool to find open web admin tools on a local network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divanvisagie/open-80.git"
+  },
+  "author": "",
+  "license": "GPL 3",
+  "bugs": {
+    "url": "https://github.com/divanvisagie/open-80/issues"
+  },
+  "homepage": "https://github.com/divanvisagie/open-80#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-basic-auth": "^1.1.5"
+  }
+}
