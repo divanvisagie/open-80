@@ -4,7 +4,7 @@
   "description": "Tool to find open web admin tools on a local network",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "sudo node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,6 +15,10 @@
   "bugs": {
     "url": "https://github.com/divanvisagie/open-80/issues"
   },
+  "bin": {
+    "open-80": "index.js"
+  },
+  "preferGlobal": true,
   "homepage": "https://github.com/divanvisagie/open-80#readme",
   "dependencies": {
     "cli-spinner": "^0.2.8",
