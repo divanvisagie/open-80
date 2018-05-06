@@ -1,6 +1,6 @@
 {
   "name": "open-80",
-  "version": "1.0.0",
+  "version": "0.3.0",
   "description": "Tool to find open web admin tools on a local network",
   "main": "index.js",
   "scripts": {
