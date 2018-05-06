@@ -22,6 +22,8 @@
   "homepage": "https://github.com/divanvisagie/open-80#readme",
   "dependencies": {
     "cli-spinner": "^0.2.8",
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.4",
     "express": "^4.16.3",
     "express-basic-auth": "^1.1.5",
     "node-nmap": "^4.0.0",
