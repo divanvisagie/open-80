@@ -10,6 +10,33 @@ Scans a network for open http ports and then does a get on them to see if they r
 This tool is written in nodejs and thus requires that to run, it also uses
 nmap to get the job done and so you will need to have that installed too
 
+## Installation
+
+sudo npm install -g open-80
+
+## Usage
+
+The application uses a command from nmap that requires root access, so:
+```sh
+sudo open-80 -i 192.168.1.0
+```
+
+You can also print help which will give you this:
+
+```bash
+Open 80
+
+  App to scan open web interfaces on your network.
+
+  It scans the network using nmap based on the ip provided and then checks if
+  those IPs have open web interfaces on them
+
+Options
+
+  -i, --ip string   The IP used to start with scanning the network
+  -h, --help        Print this usage guide.
+```
+
 ## OS Compatibility
 
 I wrote this on a Linux muchine, it will probably work on macOS and I will 
