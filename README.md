@@ -1,4 +1,7 @@
 # open-80
+
+![NPM Badge](https://nodei.co/npm/open-80.png?compact=true)
+
 Tool to find open web admin tools on a local network
 
 ## Description
