@@ -93,6 +93,11 @@ getHosts(options.ip, hosts => {
     hosts.forEach(host => {
         let url = `http://${host.ip}:${host.port}`
         request(url, function (error, response, body) {
+            if (!response) {
+                console.log(`No response from ${url}`)
+                return
+            }
+
             console.log(`Results for ${url}, Status Code: ${response.statusCode}`)
         });
     })
