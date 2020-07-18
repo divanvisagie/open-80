@@ -44,8 +44,7 @@ Options
 
 ## OS Compatibility
 
-I wrote this on a Linux muchine, it will probably work on macOS and I will 
-attempt running it there at some point, no guarantees for Windows though.
+Tested on Linux and macOS, no guarantees for Windows.
 
 ## License
 GNU GENERAL PUBLIC LICENSE Version 3
