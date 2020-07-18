@@ -1,5 +1,4 @@
 #! /usr/bin/env node
-
 'use strict'
 
 const request = require('request')
@@ -73,8 +72,6 @@ function printHelp() {
     console.log(usage)
 
 }
-
-
 
 const options = commandLineArgs(optionDefinitions)
 
