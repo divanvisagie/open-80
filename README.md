@@ -2,6 +2,8 @@
 
 ![NPM Badge](https://nodei.co/npm/open-80.png?compact=true)
 
+![Node.js CI](https://github.com/divanvisagie/open-80/workflows/Node.js%20CI/badge.svg)
+
 Tool to find open web admin tools on a local network
 
 ## Description
